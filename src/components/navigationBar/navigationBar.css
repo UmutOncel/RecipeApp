@@ -1,0 +1,86 @@
+.flex-header {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    font-size: 17px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding-right: 30px;
+}
+
+nav ul li a:hover {
+    color: grey;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.light {
+    background-color: white;
+    color: black;
+}
+
+.dark {
+    background-color: darkgrey;
+    color: black;
+}
+
+.slider-container {
+    width: 50px;
+    height: 25px;
+    background-color: lightgray;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: relative;
+    margin-right: 30px;
+}
+
+.slider-button {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 2.5px;
+    left: 2.5px;
+    transition: left 0.3s ease;
+}
+
+.slider-container.dark {
+    background-color: darkgray;
+}
+
+.slider-container.dark .slider-button {
+    left: calc(100% - 22.5px);
+}
+
+.nav-button {
+    margin-right: 30px;
+    width: 70px;
+    font-family: 'Bitter', serif;
+    background-color: lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav-button:hover {
+    background-color: darkgray;
+}

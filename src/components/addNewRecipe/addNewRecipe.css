@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap');
+
+.form-submit {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 30px 250px;
+}
+
+input[type="text"] {
+    height: 30px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: 'Bitter', serif;
+}
+
+.button-submit {
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .6es ease;
+    height: 30px;
+    font-family: 'Bitter', serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.button-submit:hover {
+    background-color: #D8D9CF;
+    color: black;
+}
+
+.error-text {
+    color: red;
+    font-family: 'Bitter', serif;
+    font-weight: bold;
+    font-size: 12px;
+    padding-top: 5px;
+}
