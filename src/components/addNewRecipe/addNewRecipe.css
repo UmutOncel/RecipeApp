@@ -3,8 +3,14 @@
 .form-submit {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
     gap: 10px;
-    margin: 30px 250px;
+    background-image: url('https://images.ctfassets.net/qpn1gztbusu2/7sl6XiSXkJ09inxcWUhgAh/7ae4af087210d41789e61dde6af01316/A_chef_adds_spices_to_some_cutlets_as_he_prepares_a_meal_featuring_vibrant_ingredients_on_a_cutting_board.jpg');
+    background-size: cover;         /* Resmi kaplamak için */
+    background-position: bottom;    /* Resmi ortalamak için */
+    background-repeat: no-repeat;   /* Tekrar etmemesi için */
+    height: 100vh;                  /* div'in boyutunu büyüttük */
 }
 
 input[type="text"] {
@@ -12,7 +18,7 @@ input[type="text"] {
 }
 
 input, textarea {
-    width: 100%;
+    width: 700px;
     padding: 10px;
     border: 1px solid black;
     border-radius: 5px;
@@ -27,6 +33,7 @@ input, textarea {
     border-radius: 5px;
     transition: .6es ease;
     height: 30px;
+    width: 700px;
     font-family: 'Bitter', serif;
     font-weight: bold;
     font-size: 15px;

@@ -3,6 +3,8 @@ import './navigationBar.css'
 import { UserPreferencesContext } from '../../context/UserPreferencesContext'
 import { Link, useNavigate } from 'react-router-dom'
 import { AuthContext } from '../../context/AuthContext'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faUtensils } from '@fortawesome/free-solid-svg-icons'
 
 const ThemeSlider = () => {
   const {theme, toggleTheme} = useContext(UserPreferencesContext)
@@ -38,7 +40,7 @@ export function NavigationBar() {
 
   return (
     <header className='flex-header'>
-        <h2>Recipe Platform</h2>
+        <h2> <FontAwesomeIcon icon={faUtensils} /> Recipe Platform</h2>
         <nav>
             <ul>
                 <li> <Link to="/">Home</Link> </li>

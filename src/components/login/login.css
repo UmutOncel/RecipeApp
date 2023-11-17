@@ -1,0 +1,40 @@
+.login-form-submit {
+    background-image: url('https://holycrap.com/cdn/shop/articles/foods-to-eat-when-constipated_1400x.progressive.jpg?v=1615913132');
+    background-size: cover;         /* Resmi kaplamak için */
+    background-position: bottom;    /* Resmi ortalamak için */
+    background-repeat: no-repeat;   /* Tekrar etmemesi için */
+    height: 100vh;                  /* div'in boyutunu büyüttük */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.login-input {
+    width: 400px;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: 'Bitter', serif;
+}
+
+.login-button {
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .6es ease;
+    height: 30px;
+    width: 400px;
+    font-family: 'Bitter', serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.login-button:hover {
+    background-color: #D8D9CF;
+    color: black;
+}

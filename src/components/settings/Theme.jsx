@@ -20,14 +20,17 @@ export function Theme() {
     }, [])
 
   return (
-    <div className="theme-div">
-        <label className="theme-label">Theme</label>
-        <button className="theme-btn" onClick={toggleTheme}> {theme === 'light' ? 'Switch to Dark' : 'Switch to Light'} </button>
+    <div className="theme">
+        <div className="theme-div">
+          <label className="theme-label">Theme</label>
+          <button className="theme-btn" onClick={toggleTheme}> {theme === 'light' ? 'Switch to Dark' : 'Switch to Light'} </button>
+        </div>
+        <label className="user-info">User Information</label>
         <div className="user-profile">
-          <img src={user.avatar} alt="" />
-          <p>{user.name}</p>
-          <p>{user.role}</p>
-          <p>{user.email}</p>
+          <img className="user-image" src={user.avatar} alt="" />
+          <p className="user-text"> <b>Name:</b> {user.name}</p>
+          <p className="user-text"> <b>Role:</b> {user.role}</p>
+          <p className="user-text"> <b>Email:</b> {user.email}</p>
         </div>
     </div>
   )

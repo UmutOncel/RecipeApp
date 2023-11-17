@@ -25,9 +25,9 @@ function App() {
             <Routes>
               <Route path='/' element={<HomePage/>} />
               <Route path='/recipes' element={<PrivateRoute element={ <RecipesPage/> } />} />
-              <Route path='/addNewRecipe' element={<AddRecipePage/>} />
+              <Route path='/addNewRecipe' element={<PrivateRoute element={ <AddRecipePage/> } />} />
               <Route path='/login' element={<LoginPage/>}/>
-              <Route path='/settings' element={<SettingsPage/>} />
+              <Route path='/settings' element={<PrivateRoute element={ <SettingsPage/> } />} />
             </Routes>
         </BrowserRouter>
       </AuthProvider>

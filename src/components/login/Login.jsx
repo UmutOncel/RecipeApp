@@ -22,10 +22,10 @@ export function Login() {
     }
 
   return (
-    <form className='form-submit' onSubmit={handleLogin}>
-        <input type="email" placeholder="Enter your email" onChange={event => setEmail(event.target.value)}/>
-        <input type="password" placeholder="Enter your password" onChange={event => setPassword(event.target.value)}/>
-        <button className='button-submit' type='submit'>Login</button>
+    <form className='login-form-submit' onSubmit={handleLogin}>
+        <input className='login-input' type="email" placeholder="Enter your email" onChange={event => setEmail(event.target.value)}/>
+        <input className='login-input' type="password" placeholder="Enter your password" onChange={event => setPassword(event.target.value)}/>
+        <button className='login-button' type='submit'>Login</button>
     </form>
   )
 }

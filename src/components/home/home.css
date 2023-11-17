@@ -1,10 +1,25 @@
 .flex-div {
-    margin: 30px 0;
+    padding: 100px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url('https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2022-03/plant-based-food-mc-220323-02-273c7b.jpg');
+    background-size: cover;         /* Resmi kaplamak için */
+    background-position: center;    /* Resmi ortalamak için */
+    background-repeat: no-repeat;   /* Tekrar etmemesi için */
+    height: 100vh;                  /* div'in boyutunu büyüttük */
+    opacity: 0.85;
 }
 
-.text {
+.home-title {
+    color: white;
+    font-size: 40px;
     padding-bottom: 20px;
+    text-shadow: 2px 2px 1px black;
+}
+
+.home-text {
+    color: white;
+    font-size: 25px;
+    text-shadow: 2px 2px 1px black;
 }
