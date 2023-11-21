@@ -1,6 +1,6 @@
 # Recipe App
 
-Bu projemde JavaScript ile React kütüphanesini kullanarak yemek tariflerini yayımlayabileceğimiz bir web sitesi tasarladım. Ana sayfa hariç diğer sayfaları kullanabilmek için üye girişi yapılmak zorundadır. Giriş yapıldıktan sonra mevcut tarifleri görebilir ve silebilir ve Add Recipe sekmesinden yeni bir tarif ekleyebilirsiz. Settings kısmındanda kullanıcı bilgilerni görebilirsiz. Kodlarımı yazarken Vite, Node, Web API, Axios, Json-server gibi teknolojilerden yararlandım. Sitemin tasarımı ise CSS kullanarak yaptım.
+Bu projemde JavaScript ile React kütüphanesini kullanarak yemek tariflerini yayımlayabileceğimiz bir web sitesi tasarladım. Ana sayfa hariç diğer sayfalara erişebilmek için üye girişi yapılmak zorundadır. Giriş yapıldıktan sonra mevcut tarifleri görebilir, silebilir ve Add Recipe sekmesinden yeni bir tarif ekleyebilirsiz. Settings kısmındanda kullanıcı bilgilerni görebilirsiz. Kodlarımı yazarken Vite, Node, Web API, Axios, Json-server gibi teknolojilerden yararlandım. Sitemin tasarımı ise CSS kullanarak yaptım.
 
 Projemin ekran görüntüleri:
 
